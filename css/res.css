@@ -1,0 +1,226 @@
+@CHARSET "UTF-8";
+
+@media all and (max-width:1224px) {
+	.outer {
+    	padding-left: 5%;
+    	padding-right: 5%;
+	}
+	header {
+		width:90%;
+	}
+	#vision-values .col-right img {
+    	margin-left: 11.0708%;
+    	margin-right: -11.0708%;
+    	width: 100%;
+	}
+	#our-portfolio .col-right img {
+		margin: 84px 2.89784% 0 8.3102%;
+		width: 88.79196%;
+	}
+	#a-message { padding-bottom:50px; }
+	#a-message .col-right { width:55%; }
+	#a-few-words .col-left {
+		padding-bottom:60px;
+	}
+}
+@media all and (max-width:1020px) {
+	#emLogo {
+    	float: none;
+    	width:108px;
+    	margin: 0 auto;
+	}
+	#emNav {
+		float:none;
+		margin: 36px 0 0;
+		overflow:hidden;
+	}
+	#emNav ul {
+		float:left;
+		position:relative;
+		left:50%;
+		padding:0;
+	}
+	#emNav ul li {
+		position:relative;
+		left:-50%;
+	}
+	#a-message { padding-bottom:50px; }
+	#a-message .col-right { width:50%; }
+	#a-few-words .col-left {
+		padding-bottom:60px;
+	}
+}
+@media all and (max-width:839px) {
+	#a-few-words h2 {
+    	font-size: 20px;
+	}
+	#a-few-words h1 {
+    	font-size: 54px;
+	}
+}
+@media all and (max-width:822px) {
+	#emNav ul {
+		float:none;
+		position:static;
+		left:auto;
+		text-align:center;
+	}
+	#emNav ul li {
+		position:static;
+		left:auto;
+		display:inline-block;
+		float:none;
+	}
+}
+@media all and (max-width:755px) {
+	.row .col-left, .row .col-right {
+		float:none;
+		width:100%;
+	}
+	#explore-btn {
+		width: 50%;
+	}
+	#spirit-commerce {
+		background-image:none;
+	}
+	#spirit-commerce .col-left {
+		display:block;
+	}
+	#spirit-commerce .col-left img {
+		width:110.9%;
+		height:auto;
+		margin:-49px -5.45% 0 -5.45%;
+	}
+	#spirit-commerce .col-right {
+		text-align:left;
+		float:none;
+		color:#fff;
+		width:100%;
+	}
+	#spirit-emergo .col-right img {
+		margin-left: auto;
+		margin-right: auto;
+		width:94%;
+		padding: 3%;
+	}
+	#spirit-quote blockquote p {
+    	font-size: 21px;
+	}
+	#vision-values .col-right img {
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+	}
+	#our-portfolio .col-left,
+	#our-portfolio .col-right {
+		width: 100%;
+	}
+	#our-portfolio .col-right img {
+		margin: 6.8729% 0;
+		width: 100%;
+	}
+	#our-industries .col-left {
+		margin-right:0;
+		width: 100%;
+	}
+	#our-industries .col-right {
+		width: 100%;
+	}
+	#industry-quote .col-left {
+		margin-right:0%;
+		width: 100%;
+		margin-bottom:30px;
+	}
+	#industry-quote .col-right {
+		margin-left: 37.5%;
+		width: 25%;
+	}
+	#a-message { background-image:none; }
+	#a-message .col-left {
+		display:block;
+		width: 100%;
+		position:static;
+	}
+	#a-message .col-left img {
+		margin-left:0;
+		margin-right:0;
+		width:100%;
+		display:block;
+	}
+	#a-message .col-right {
+    	width: 100%;
+    }
+	#videoMessage {
+		margin-top:0;
+	}
+	#a-few-words {
+		background-image: none;
+		padding-bottom:0;
+	}
+	#a-few-words .col-left {
+		padding-bottom:0;
+	}
+	#a-few-words .col-right {
+		display:block;
+		position:static;
+	}
+	#a-few-words .col-right img {
+		display:block;
+		width:110.9%;
+		height:auto;
+		margin:0 -5.45% 0 -5.45%;
+	}
+	footer .col-1,
+	footer .col-2, 
+	footer .col-3 {
+		float: none;
+		margin: 0;
+		width:100%;
+		padding: 0;
+		border:none;
+	}
+	footer .col-2 {
+		border-top:1px solid #fff;
+		border-bottom:1px solid #fff;
+	}
+	footer .row h1 {
+		margin: 1em 0;
+	}
+}
+@media all and (max-width:433px) {
+	#about h1 {
+		font-size: 30px;
+		line-height: 1.1em;
+		margin: 172px 5% 212px;
+	}
+	#our-spirit {
+		padding-bottom: 10px;
+		padding-top: 10px;
+    }
+    #spirit-commerce {
+    	padding-bottom:10px;
+    }
+    #spirit-emergo {
+    	padding-bottom: 10px;
+		padding-top: 10px;
+    }
+    #spirit-quote blockquote {
+		padding: 17px 0 10px;
+	}
+	#vision-values {
+    	padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	#vision-values .col-right img {
+		margin-top:30px;
+		margin-bottom:20px;
+	}
+	#our-portfolio {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	#our-industries {
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+}
